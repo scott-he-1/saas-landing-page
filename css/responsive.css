@@ -1,0 +1,243 @@
+@media screen and (max-width: 1024px) {
+  [aria-controls="navbarDropdown"] {
+    display: block;
+    z-index: 1000;
+  }
+
+  [aria-expanded="false"] ~ ul {
+    display: none;
+  }
+
+  [aria-expanded="true"] ~ ul {
+    display: flex;
+    background: white;
+  }
+
+  .menu-list {
+    position: absolute;
+    left: 0;
+    height: 300px;
+    width: 100%;
+    top: 44px;
+    justify-content: center ;
+    border-top: 1px solid rgba(128, 128, 128, 0.3);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+  }
+
+  section {
+    margin-top: var(--size-100);
+  }
+
+  .section1-header .main-header {
+    text-align: center;
+  }
+
+  .container:has(.left-side) {
+    flex-direction: column;
+  }
+
+  .left-side {
+    text-align: center;
+    align-items: center;
+  }
+
+  .left-side .main-header-links {
+    align-self: center;
+  }
+
+  .google-icon {
+    left: -250px;
+  }
+
+  .atlassian-icon {
+    left: -90px;
+  }
+
+  .asana-icon {
+    left: 250px;
+  }
+
+  .paypal-icon {
+    left: -240px;
+  }
+
+  .weave-icon {
+    left: 0;
+  }
+
+  .google-a-icon {
+    left: -50px;
+  }
+
+  .calendar-icon {
+    left: 200px;
+  }
+
+  .section3-prospective > .container {
+    height: 800px;
+    grid-gap: 0;
+  }
+
+  .section6-review .container {
+    height: 800px;
+  }
+
+  .section6-review .left-side {
+    left: -100px;
+    top: -100px;
+  }
+
+  .section6-review .right-side {
+    text-align: center;
+    align-items: center;
+  }
+  
+  .section7-companies-trust {
+    margin-top: 0;
+  }
+
+  .section8-pricing-info {
+    flex-direction: column;
+  }
+
+  .section8-left-side {
+    text-align: center;
+  }
+
+  .section8-left-side .btn {
+    align-self: center;
+  }
+    
+  .section9-left-side {
+    flex-direction: row;
+  }
+  
+  .section9-hire-us .container {
+    flex-direction: column;
+  }
+
+  .hire-us-text {
+    flex: 6;
+  }
+
+  .hire-us-people {
+    flex: 4;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .google-icon {
+    left: -100px;
+  }
+
+  .atlassian-icon {
+    left: 0;
+  }
+
+  .asana-icon {
+    left: 100px;
+  }
+
+  .paypal-icon {
+    left: -100px;
+  }
+
+  .weave-icon {
+    left: 50px;
+  }
+
+  .google-a-icon {
+    left: -70px;
+  }
+
+  .calendar-icon {
+    left: 130px;
+  }
+
+  .section3-prospective .container > div {
+    margin-top: 0;
+    margin-bottom: 0;
+    align-items: center;
+  }
+
+  .bullet-list {
+    flex-direction: column;
+    align-items: flex-start;
+    grid-gap: var(--size-20);
+  }
+
+  .bullet-segment {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .menu-list {
+    flex-direction: column;
+    height: 400px;
+  }
+
+  .section6-review .container {
+    height: 700px;
+  }
+  
+  .companies-logo {
+    flex-direction: column;
+  }
+
+  .people-images {
+    grid-gap: var(--size-20);
+  }
+
+  .section9-left-side {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hire-us-text .quote {
+    padding: 0;
+  }
+
+  .section10-company-info .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section10-company-info .front-img, .chain-links {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .section11-footer .top-side {
+    flex-direction: column;
+    align-items: center;
+    grid-gap: var(--size-20);
+  }
+
+  .bottom-side {
+    grid-gap: var(--size-20);
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .section3-prospective > .container div {
+    margin: 0;
+    justify-content: center;
+  }
+
+  .right-side div img {
+    width: 100%;
+  }
+
+  .dots-image {
+    width: 141px;
+    height: 261px;
+  }
+
+  .woman3-image {
+    width: 262px;
+    height: 300px;
+  }
+}
