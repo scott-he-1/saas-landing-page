@@ -1,1 +1,1 @@
-A fully responsive SaaS website built only in HTML!
+A fully responsive SaaS website built in HTML
